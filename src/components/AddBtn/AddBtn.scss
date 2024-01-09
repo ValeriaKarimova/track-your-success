@@ -1,0 +1,19 @@
+.add-btn {
+    font-size: 60px;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.add-btn:hover {
+    &::before {
+        content: "Add new item";
+    background-color: #fadbfa;
+    position: absolute;
+    top: -20px;
+    right: -140px;
+    font-size: 20px;
+    width: 150px;
+    border-radius: 8px;
+    }
+}
